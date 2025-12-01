@@ -6,13 +6,13 @@
 /*   By: rockstar <rockstar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/29 16:03:46 by rockstar          #+#    #+#             */
-/*   Updated: 2025/11/29 16:05:41 by rockstar         ###   ########.fr       */
+/*   Updated: 2025/12/01 13:06:28 by wyawanse         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int   ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    return (c >= 32 && c <= 126);
+	return (c >= 32 && c <= 126);
 }
